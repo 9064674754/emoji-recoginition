@@ -12,13 +12,7 @@ function take_snapshot(){
   })
 }
 classifier=ml5.imageClassifier('https://teachablemachine.withgoogle.com/models/HMdn4lgyK/model.json',modelLoaded);
-function speak(){
-  var synth=window.speechSynthesis;
-  speak_data_1="Your gesture :" + gesture;
-  
-  var utterThis= new SpeechSynthesisUtterance(speak_data_1);
-  synth.speak(utterThis);
-}
+
 function modelLoaded(){
   console.log("model Loaded");
 }
