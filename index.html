@@ -17,46 +17,44 @@
     <div class="container">
     
       <center>
-  <h3 class="btn btn-warning heading">GESTURE WEB APP
+  <h3 class="btn btn-warning heading">EMOTICON TO EMOJI APP
       <br>
-      <span>👍</span>
-      <span>👌</span>
-      <span>✌️</span>
-      <span>👏</span>
-      <span>✊</span>
-      <span>🤘</span>
+      <span>😂</span>
+      <span>😊</span>
+      <span>😒</span>
+      <span>😁</span>
+      <span>😢</span>
+      <span>😐</span>
   </h3>
         <br><br>
   
-        <p style="font-size: 22px;">Take a selfie of a gesture to know about its meaning
-            <p style="font-size: 18px;">On the following gestures the model is trained - </p>
-            <span>
-          <b >👌</b>
-          <b class="vl"></b>
-          <b >👍</b>
-          <b class="vl"></b>
-          <b >✌️</b>
-          
+        <p style="font-size: 22px;">Take your selfie to generate emoji
+            <br>
+          <b style="color: yellow">Are you Happy?</b>
+          <br>
+          <b style="color: black">Are you Sad?</b>
+          <br>
+          <b style="color: red">Are you Angry?</b>
+          <br>
         </p>
-        <div class="col-md-4 col-sm-12 col-xs-12 "  >
-        <label class="pots" > ⠀    Webcam View -  ⠀    </label><br><br>
+        <div class="col-md-4 col-sm-12 col-xs-12">
+        <label >Webcam View - </label>
         <div id="camera"></div>
         <br>
         <br>
         <button onclick="take_snapshot();" class="btn btn-warning">Capture Image</button>
         </div>
-        
         <div class="col-md-4 col-sm-12 col-xs-12">
-            <label class="egg" id="potatopc"> ⠀    Prediction -    ⠀</label>
-            
-            
-            
+            <label class="egg">Prediction 1 - </label>
+            <p class="emoticon_name" id="result_emoticon_name"></p>
+            <p class="emoji" id="update_emoji"></p>
+            <label class="egg">Prediction 2 - </label>
+            <p class="emoticon_name" id="result_emoticon_name2"></p>
+            <p class="emoji" id="update_emoji2"></p>
   
         </div>
-        
-        <div class="col-md-4 col-sm-12 col-xs-12 " class="pot">
-            <label class="pots"> ⠀    Snapshot -  ⠀    </label>
-            <br><br>
+        <div class="col-md-4 col-sm-12 col-xs-12">
+            <label>Snapshot - </label>
             <div id="result"></div>
           <br><br>
   <button onclick="check();" class="btn btn-success">Predict Emoticon</button>

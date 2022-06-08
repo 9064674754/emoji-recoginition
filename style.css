@@ -32,18 +32,4 @@ span
 }
 .egg{
     color: blue;
-    background-color: bisque;
-    border-radius: 10px;
 }
-.vl {
-    border-left: 3px solid white;
-    height: 20px;
-  }
-  .pots{
-    
-        color: rgb(1, 162, 255);
-        background-color: rgb(247, 224, 123);
-        border-radius: 10px;
-    
-  }
-  
